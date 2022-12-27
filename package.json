@@ -8,6 +8,15 @@
     "ios": "expo start --ios",
     "web": "expo start --web"
   },
+  "eslintConfig": {
+    "plugins": [
+      "prettier"
+    ],
+    "extends": [
+      "react-app",
+      "plugin:prettier/recommended"
+    ]
+  },
   "dependencies": {
     "expo": "~47.0.9",
     "expo-status-bar": "~1.4.2",
@@ -15,7 +24,8 @@
     "react-native": "0.70.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.9"
+    "@babel/core": "^7.12.9",
+    "prettier": "^2.8.1"
   },
   "private": true
 }
